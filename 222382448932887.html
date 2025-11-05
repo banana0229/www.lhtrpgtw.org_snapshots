@@ -73,30 +73,9 @@ var STYLE_PREFIX = 'wsite';
 </script>
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
 
-<script type="text/javascript" src="https://cdn2.editmysite.com/js/lang/zh/stl.js?buildTime=1569439114&"></script>
-<script src="./files/main.js?buildTime=1569540468"></script><script type="text/javascript">
-		function initCustomerAccountsModels() {
-					(function(){_W.setup_rpc({"url":"\/ajax\/api\/JsonRPC\/CustomerAccounts\/","actions":{"CustomerAccounts":[{"name":"login","len":2,"multiple":false,"standalone":false},{"name":"logout","len":0,"multiple":false,"standalone":false},{"name":"getSessionDetails","len":0,"multiple":false,"standalone":false},{"name":"getAccountDetails","len":0,"multiple":false,"standalone":false},{"name":"getOrders","len":0,"multiple":false,"standalone":false},{"name":"register","len":4,"multiple":false,"standalone":false},{"name":"emailExists","len":1,"multiple":false,"standalone":false},{"name":"passwordReset","len":1,"multiple":false,"standalone":false},{"name":"passwordUpdate","len":3,"multiple":false,"standalone":false},{"name":"validateSession","len":1,"multiple":false,"standalone":false}]},"namespace":"_W.CustomerAccounts.RPC"});
-_W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":"_W.CustomerAccounts.BackboneModelData","collection_namespace":"_W.CustomerAccounts.BackboneCollectionData","bootstrap_namespace":"_W.CustomerAccounts.BackboneBootstrap","models":{"CustomerAccounts":{"_class":"CustomerAccounts.Model.CustomerAccounts","defaults":null,"validation":null,"types":null,"idAttribute":null,"keydefs":null}},"collections":{"CustomerAccounts":{"_class":"CustomerAccounts.Collection.CustomerAccounts"}},"bootstrap":[]});
-})();
-		}
-		if(document.createEvent && document.addEventListener) {
-			var initEvt = document.createEvent('Event');
-			initEvt.initEvent('customerAccountsModelsInitialized', true, false);
-			document.dispatchEvent(initEvt);
-		} else if(document.documentElement.initCustomerAccountsModels === 0){
-			document.documentElement.initCustomerAccountsModels++
-		}
-		</script>
-		<script type="text/javascript"> _W = _W || {}; _W.securePrefix='www.lhtrpgtw.org'; </script><script>_W = _W || {};
-			_W.customerLocale = "zh";
-			_W.storeName = null;
-			_W.storeCountry = "TW";
-			_W.storeCurrency = "USD";
-			_W.storeEuPrivacyPolicyUrl = "";
-			com_currentSite = "751791857639878669";
-			com_userID = "59123295";</script><script type="text/javascript">_W.configDomain = "www.weebly.com";</script><script>_W.relinquish && _W.relinquish()</script>
-<script type="text/javascript" src="https://cdn2.editmysite.com/js/lang/zh/stl.js?buildTime=1569540468&"></script><script> _W.themePlugins = [];</script><script type="text/javascript"> _W.recaptchaUrl = "https://www.google.com/recaptcha/api.js"; </script><script type="text/javascript"><!--
+<!--<script type="text/javascript" src="https://cdn2.editmysite.com/js/lang/zh/stl.js?buildTime=1569439114&"></script>-->
+<script src="./files/main.js?buildTime=1569540468"></script>
+<!--<script type="text/javascript" src="https://cdn2.editmysite.com/js/lang/zh/stl.js?buildTime=1569540468&"></script><script type="text/javascript"><!--
 	
 	var DISABLE_NAV_MORE = 1;
 	function initFlyouts(){
@@ -110,8 +89,8 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 			{}
 		)
 	}
-//-->
 </script>
+-->
 		
 		
 	</head>
@@ -1027,17 +1006,6 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 	}
 </style>
 
-<script type="text/javascript" src="https://cdn2.editmysite.com/js/site/footerSignup.js?buildTime=1576890437"></script>
-<script type="text/javascript">
-	if (document.readystate === 'complete') {
-		Weebly.footer.setupContainer('cdn2.editmysite.com', '1576890437');
-	} else {
-		document.addEventListener('DOMContentLoaded', function() {
-			Weebly.footer.setupContainer('cdn2.editmysite.com', '1576890437');
-		});
-	}
-</script>
-
 <script type='text/javascript'>
 //<!--
 
@@ -1058,52 +1026,6 @@ if (document.cookie.match(/(^|;)\s*is_mobile=1/)) {
 </script></div>
 	</div>
 </div>
-
-<script>
-	(function(jQuery) {
-		try {
-			if (jQuery) {
-				jQuery('div.blog-social div.fb-like').attr('class', 'blog-social-item blog-fb-like');
-				var $commentFrame = jQuery('#commentArea iframe');
-				if ($commentFrame.length > 0) {
-					var frameHeight = jQuery($commentFrame[0].contentWindow.document).height() + 50;
-					$commentFrame.css('min-height', frameHeight + 'px');
-				}
-				if (jQuery('.product-button').length > 0){
-					jQuery(document).ready(function(){
-						jQuery('.product-button').parent().each(function(index, product){
-							if(jQuery(product).attr('target') == 'paypal'){
-								if (!jQuery(product).find('> [name="bn"]').length){
-									jQuery('<input>').attr({
-										type: 'hidden',
-										name: 'bn',
-										value: 'DragAndDropBuil_SP_EC'
-									}).appendTo(product);
-								}
-							}
-						});
-					});
-				}
-			}
-			else {
-				// Prototype
-				$$('div.blog-social div.fb-like').each(function(div) {
-					div.className = 'blog-social-item blog-fb-like';
-				});
-				$$('#commentArea iframe').each(function(iframe) {
-					iframe.style.minHeight = '410px';
-				});
-			}
-		}
-		catch(ex) {}
-	})(window._W && _W.jQuery);
-</script>
-
-<script>
-	window._W.isEUUser = false;
-	window._W.showCookieToAll = "";
-</script>
-
 
 	</body>
 </html>
